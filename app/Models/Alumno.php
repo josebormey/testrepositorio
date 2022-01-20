@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Alumno extends Model
 {
     
-    
+    private $table = "alumno2";
     use HasFactory;
 
    
